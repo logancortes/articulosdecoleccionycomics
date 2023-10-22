@@ -27,16 +27,17 @@ public class Aceptacion_inscripcion extends AppCompatActivity {
         txt_view_nombre = findViewById(R.id.txtViewNombre);
         txt_view_correo = findViewById(R.id.txtViewCorreo);
         txt_view_telefono = findViewById(R.id.txtViewTelefono);
+        txt_view_sexo = findViewById(R.id.txtViewSexo);
 
         String nombre = getIntent().getExtras().getString("nombre_enviado");
         String correo = getIntent().getExtras().getString("correo_enviado");
         String telefono = getIntent().getExtras().getString("telefono_enviado");
-        //String sexo = getIntent().getExtras().getString("sexo_enviado");
+        String sexo = getIntent().getExtras().getString("sexo_enviado");
 
         txt_view_nombre.setText(nombre);
         txt_view_correo.setText(correo);
         txt_view_telefono.setText(telefono);
-        //txt_view_sexo.setText(sexo);
+        txt_view_sexo.setText(sexo);
 
         btn_si = findViewById(R.id.btnSi);
         btn_si.setOnClickListener(new View.OnClickListener() {

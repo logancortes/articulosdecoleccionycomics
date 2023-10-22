@@ -43,7 +43,7 @@ public class Registro extends AppCompatActivity {
                 i.putExtra("nombre_enviado", txt_nombre.getText().toString());
                 i.putExtra("correo_enviado", txt_correo.getText().toString());
                 i.putExtra("telefono_enviado", txt_telefono.getText().toString());
-                //i.putExtra("sexo_enviado", txt_sexo.getText().toString());
+                i.putExtra("sexo_enviado", txt_sexo.getText().toString());
                 startActivity(i);
             }
         });
