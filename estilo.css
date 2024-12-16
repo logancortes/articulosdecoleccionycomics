@@ -1,0 +1,298 @@
+nav ul {
+  list-style: none; /* eliminamos los bullets */
+  margin: 0; /* eliminamos el margen por defecto */
+  padding: 0; /* eliminamos el relleno por defecto */
+  background-color:#dfe8f2; /*#caccca; /* color de fondo */
+  overflow: hidden; /* ocultamos los elementos que sobresalen del contenedor */
+}
+
+nav li {
+  float: left; /* hacemos que los elementos de lista floten a la izquierda */
+  margin-right: 1cm; /* agregamos un margen derecho de 1cm */
+}
+
+nav li a {
+  display: block; /* hacemos que los enlaces sean bloques */
+  color: #000000;  /* color de texto */
+  text-align: center; /* centramos el texto */
+  padding: 16px; /* relleno de 16px 'top'*/
+  text-decoration: none; /* eliminamos la subrayado del enlace */
+  font-family: 'Quattrocento Sans', sans-serif; 
+  font-size: 18px; /* tamaño de letra */
+}
+
+nav li a:hover {
+  text-decoration: underline; /* agregamos subrayado cuando se hace hover en el enlace */
+}
+
+.seccion-horizontal {
+  margin: 0 auto; /*asegura que el contenedor esté centrado horizontalmente en la página*/
+  text-align: center;
+  display: flex; /* hace que los elementos se muestren en una fila horizontal */
+  flex-wrap: wrap; /* permite que los elementos se envuelvan si no caben en una sola fila */
+  justify-content: space-between; /* distribuye los elementos con espacio entre ellos */
+  align-items: center; /* alinea los elementos verticalmente en el centro */
+  padding: 20px; /* agrega un espacio interno a cada sección */
+}
+
+.seccion-horizontal h1 {
+  font-family: 'fuenteTitulos', sans-serif;
+  font-size: 60px;
+  font-weight: normal; /*Le quita la negrilla*/
+  text-align: center; /*Centrar titulos*/
+}
+
+.seccion-horizontal h2 {
+  font-family: 'fuenteTitulos', sans-serif;
+  font-size: 35px;
+  font-weight: normal; /*Le quita la negrilla*/
+  text-align: center; /*Centrar titulos*/
+}
+
+.seccion-horizontal h3 {
+  font-family: 'fuenteParrafos', sans-serif;
+  font-size: 25px;
+  font-weight: normal; /*Le quita la negrilla*/
+  text-align: center; /*Centrar titulos*/
+  padding: 0px 0px 20px; /*top, right, bottom*/
+}
+
+.seccion1 {
+  background-color:#fcca8d;
+  padding: 20px 20px; 
+  width: 100vh; /*ajusta el ancho del background al tamaño de la ventana y no del texto*/
+}
+
+.seccion1-nosotros {
+  background-color:#e6c4c4;
+  padding: 20px 20px; 
+  width: 100vh; /*ajusta el ancho del background al tamaño de la ventana y no del texto*/
+}
+
+.seccion1-coleccionables {
+  background-color:#d4e6d4;
+  padding: 20px 20px; 
+  width: 100vh; /*ajusta el ancho del background al tamaño de la ventana y no del texto*/
+}
+
+.seccion1-comics {
+  background-color:#fffed0;
+  padding: 20px 20px; 
+  width: 100vh; /*ajusta el ancho del background al tamaño de la ventana y no del texto*/
+}
+
+.seccion1-diseno3D {
+  background-color:#cfdaff;
+  padding: 20px 20px; 
+  width: 100vh; /*ajusta el ancho del background al tamaño de la ventana y no del texto*/
+}
+
+.seccion1-contacto {
+  background-color:#e6aa80;
+  padding: 20px 20px; 
+  width: 100vh; /*ajusta el ancho del background al tamaño de la ventana y no del texto*/
+}
+
+.seccion2 {
+  background-color:#e6e6e6;
+  padding: 20px 20px; 
+  width: 100vh; /*ajusta el ancho del background al tamaño de la ventana y no del texto*/
+}
+
+.seccion2-nosotros {
+  padding: 20px 20px; 
+  width: 100vh; /*ajusta el ancho del background al tamaño de la ventana y no del texto*/
+}
+
+.seccion2-coleccionables {
+  padding: 20px 20px; 
+  width: 100vh; /*ajusta el ancho del background al tamaño de la ventana y no del texto*/
+}
+
+.seccion2-comics {
+  padding: 20px 20px; 
+  width: 100vh; /*ajusta el ancho del background al tamaño de la ventana y no del texto*/
+}
+
+
+.seccion2-diseno3D {
+  padding: 20px 20px; 
+  width: 100vh; /*ajusta el ancho del background al tamaño de la ventana y no del texto*/
+}
+
+.seccion3 {
+  background-color:#ffc966;
+  padding: 20px 20px; 
+  width: 100vh; /*ajusta el ancho del background al tamaño de la ventana y no del texto*/
+}
+
+
+.seccion3-coleccionables {
+  font-size: 40px;
+  font-family: 'fuenteParrafos', sans-serif;
+  padding: 20px 20px;
+  background-color:#e9f2e9;
+  width: 100vh; /*ajusta el ancho del background al tamaño de la ventana y no del texto*/
+}
+
+.seccion4-coleccionables {
+  font-size: 40px;
+  font-family: 'fuenteParrafos', sans-serif;
+  padding: 20px 20px;
+  width: 100vh; /*ajusta el ancho del background al tamaño de la ventana y no del texto*/
+}
+
+.seccion5-coleccionables {
+  font-size: 40px;
+  font-family: 'fuenteParrafos', sans-serif;
+  padding: 20px 20px;
+  background-color:#e6e6e6;
+  width: 100vh; /*ajusta el ancho del background al tamaño de la ventana y no del texto*/
+}
+
+.seccion3-nosotros {
+  padding: 20px 20px; 
+  width: 100vh; /*ajusta el ancho del background al tamaño de la ventana y no del texto*/
+}
+
+
+.seccion3-diseno3D {
+  background-color:#dbe3ff;
+  padding: 20px 20px; 
+  width: 100vh; /*ajusta el ancho del background al tamaño de la ventana y no del texto*/
+}
+
+.seccion4-nosotros {
+  background-color:#ddd0c8;
+  padding: 20px 20px; 
+}
+
+.seccion4-nosotros h2 {
+  width: 100vh; /*ajusta el ancho del background al tamaño de la ventana y no del texto*/
+  text-align: left;  
+}
+
+
+
+.imagen-contenedor {
+  width: 35%;
+  margin: 10px;
+  text-align: center;
+  display: inline-block; /*Permite que las imagenes queden en la misma fila*/
+  justify-content: space-between; /* separar los dos elementos de imagen*/
+}
+
+.imagen-contenedor img {
+  /*max-width: 50%;*/ /*ancho máximo de la imagen dentro del contenedor*/
+  max-width: 100%;
+  max-height: 100%;
+  height: auto;
+}
+
+
+.pie-de-pagina {
+    background-color: #323232;
+    padding: 30px 50px 30px 30px;
+    text-align: center;
+    font-family: 'Quattrocento Sans', sans-serif;
+    width: 100vh; /*ajusta el ancho del background al tamaño de la ventana y no del texto*/
+}
+
+.pie-de-pagina h3 {
+  text-align: center;
+  color: #fff;
+}
+
+.boton-contacto {
+  display: block;
+  margin: 0 auto;
+  background-color: #495867;
+  color: white;
+  padding: 20px 0px;
+  font-size: 18px;
+  border: none;
+  width: 6cm;
+  border-radius: 0px; /*Permite que el borde sea rectangular*/
+}
+
+.boton-contacto:hover {
+  border: 2px solid white;
+  cursor: pointer;
+}
+
+.boton-enviar {
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  background-color: #495867;
+  color: white;
+  padding: 20px 0px;
+  font-size: 18px;
+  width: 5cm;
+  border: none;
+  border-radius: 0px; /*Permite que el borde sea rectangular*/
+}
+
+.boton-enviar:hover {
+  border: 2px solid white;
+  cursor: pointer;
+}
+
+.imagen-contenedor .icono-sonido:hover {
+  cursor: pointer;
+}
+
+input {
+  margin-top: 10px;
+  width: 500px;
+  height: 50px;
+  font-size: 25px;
+}
+
+textarea {
+  margin-top: 10px;
+  width: 500px;
+  height: 50px;
+  font-size: 25px;
+}
+
+label {
+  font-family: 'fuenteParrafos', sans-serif;
+  font-size: 30px;
+  margin-bottom: 2px;
+  text-align: center;
+  display:block;
+  padding: 15px 0px 0px 0px;
+}
+
+#mario {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+#mario-izquierda {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.video-exposicion {
+    top:20px;
+    opacity:0.8;
+}
+
+
+@font-face {
+  font-family: 'fuenteTitulos';
+  src: url('Fuentes/TenorSans-Regular.ttf') format('truetype');
+
+}
+
+@font-face {
+  font-family: 'fuenteParrafos';
+  src: url('Fuentes/QuattrocentoSans-Regular.ttf') format('truetype');
+
+}
+
+
